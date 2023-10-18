@@ -1,0 +1,122 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    
+    overflow: hidden;
+}
+
+.navBar .container-fluid{
+    padding: 0;
+}
+
+.heroImg{
+    padding-top: 70px;
+}	
+
+.navBar{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navBar .navbar-nav>li>a {
+    color: #626262;
+    font-size: 14px;
+    padding-right: 0;
+    text-transform: uppercase;
+}
+
+.minimoImg{
+    padding: 0;
+    margin-bottom: 95px;
+}
+
+.minimoImg img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.caption{
+    color: #b4ad9e;
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.lastChild:last-child{
+    margin-bottom: 135px;
+}
+
+.main-heading{
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 42px;
+}
+
+.para{
+    color: #626262;
+    font-size: 14px;
+    margin-bottom: 55px;
+}
+
+/* ############## first row CSS starts here ################ */
+
+.image{
+    margin-bottom: 15px;
+}
+
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 75px 0;
+    margin-bottom: 103px;
+}
+
+.emailSub{
+    width: 200px;
+    display: inline-block;
+    border-bottom: 2px solid rgb(151, 148, 148);
+}
+
+.emailSub input{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.loadMore button{
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 67px;
+}
+
+.footer{
+    background-color: #f0f0f0;
+    padding: 40px 0 40px;
+}
+
+.footer span{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width : 1200px) {
+    .navBar .navbar-nav>li>a{
+        margin-left: 118px;
+    }
+}
